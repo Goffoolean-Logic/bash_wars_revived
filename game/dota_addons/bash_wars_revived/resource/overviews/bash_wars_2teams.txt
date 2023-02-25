@@ -1,0 +1,8 @@
+bash_wars_2teams
+{
+	material materials/overviews/bash_wars_2teams.vmat
+	pos_x -3072
+	pos_y -176
+	scale 6.625
+}
+

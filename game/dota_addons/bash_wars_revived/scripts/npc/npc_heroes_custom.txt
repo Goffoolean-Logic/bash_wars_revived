@@ -1,0 +1,58 @@
+	
+ "DOTAHeroes"
+{
+  //=================================================================================================================
+	// HERO: Spirit Breaker
+	//=================================================================================================================
+	"npc_dota_hero_custom_spirit_breaker"	
+	{
+    "override_hero"			"npc_dota_hero_spirit_breaker"
+  
+		// Abilities
+		//-------------------------------------------------------------------------------------------------------------
+		"Ability1"					"spirit_breaker_charge_of_darkness"		// Ability 1
+		"Ability2"					"mirana_leap"		// Ability 2
+		"Ability3"					"spirit_breaker_greater_bash"			// Ability 3
+        "Ability4"					"bashwars_kick"			// Ability 4
+		"Ability5"					"attribute_bonus"						// Ability 5
+
+    "VisionNighttimeRange"		"1400"
+		"VisionDaytimeRange"		"1400"
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"8.0"								// Physical protection.
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"11"									// Damage range min.
+		"AttackDamageMax"			"21"									// Damage range max.
+		"AttackRate"				"1.7"									// Speed of attack.
+		"AttackAnimationPoint"		"0.6"									// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"600"									// Range within a target can be acquired.
+		"AttackRange"				"90"									// Range within a target can be attacked.
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"29"									// Base strength
+		"AttributeStrengthGain"			"2.4"									// Strength bonus per level.
+		"AttributeBaseAgility"			"17"									// Base agility
+		"AttributeAgilityGain"			"1.7"									// Agility bonus per level.
+		"AttributeBaseIntelligence"		"14"									// Base intelligence
+		"AttributeIntelligenceGain"		"1.8"									// Intelligence bonus per level.
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealthRegen"			"0.75"									// Health regeneration rate.
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementSpeed"				"380"									// Speed.
+		"MovementTurnRate"			"0.8"									// Turning rate.
+
+		"HealthBarOffset"			"160"
+	
+	}
+}

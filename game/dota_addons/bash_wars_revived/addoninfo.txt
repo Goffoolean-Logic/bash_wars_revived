@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+	"maps"	"bash_wars_4teams"
+	"IsPlayable"	"1"
+	"bash_wars_4teams"
+	{
+        "TeamCount" "4"
+        "MaxPlayers" "8"
+	}
+	"bash_wars_2teams"
+	{
+        "TeamCount" "2"
+        "MaxPlayers" "6"
+    }
+}
