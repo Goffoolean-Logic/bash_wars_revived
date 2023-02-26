@@ -12,14 +12,14 @@
 			m_flZoomAmount1 = 4.000000
 			m_hTexture = resource:"materials/particle/vistasmokev1/vistasmokev1_gray.vtex"
 			m_nOrientationType = 2
-			m_flAnimationRate = 0.535000
+			m_flAnimationRate = 0.135000
 			m_flMaxSize = 1.000000
 			m_flRefractAmount = 0.000000
-			m_flOverbrightFactor = 2.000000
+			m_flOverbrightFactor = 10.000000
 		},
 	]
 	m_Operators =
-	[
+	[ 
 		{
 			_class = "C_OP_Decay"
 		},

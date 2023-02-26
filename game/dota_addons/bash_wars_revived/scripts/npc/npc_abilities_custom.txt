@@ -31,7 +31,7 @@
 					"MODIFIER_STATE_OUT_OF_GAME"	"MODIFIER_STATE_VALUE_ENABLED"
 				}
 
-				"ThinkInterval"	".5"
+				"ThinkInterval"	"10"
 
 				"OnIntervalThink"
 				{
@@ -44,9 +44,9 @@
 							"Types"			"DOTA_UNIT_TARGET_HERO"
 							"Flags"			"DOTA_UNIT_TARGET_FLAG_NOT_ILLUSIONS"
 						}
-						"XPAmount"		"10"
+						"XPAmount"		"200"
 						"SplitEvenly"	"0"
-						"GoldAmount"	"4"
+						"GoldAmount"	"80"
 						"ReliableGold"	"0"
 					}
 				}

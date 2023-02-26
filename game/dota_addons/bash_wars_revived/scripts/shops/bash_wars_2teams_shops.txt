@@ -12,7 +12,8 @@
 //	"item"		"item_flying_courier"
 //		"item"		"item_ward_observer"
 //		"item"		"item_ward_sentry"
-		"item"		"item_bottle"				
+		"item"		"item_bottle"		
+		"item"      "item_aghanims_shard"		
 	}
 
 	"attributes"

@@ -1,0 +1,48 @@
+// File for Talents (Not currently being used. Need to implement third party scripts for talents.)
+"DOTAAbilities"
+{   
+    //Talent 1 Reduces nether-strike cooldown by 20
+    "special_bonus_unique_bashlord_1"
+    {
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"special_bonus_undefined"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"IsTalent"						"1"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"cdr"						"20"
+				"ability"					"spirit_breaker_nether_strike"
+			}
+		}
+	}
+	//
+	"special_bonus_unique_bashlord_2"
+    {
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"special_bonus_undefined"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"IsTalent"						"1"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"movespeed"					"10"
+				"ability"					"mirana_leap"
+			}
+		}
+	}
+}

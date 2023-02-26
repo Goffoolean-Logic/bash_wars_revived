@@ -9,10 +9,11 @@
 //		"item"		"item_tpscroll"
 		"item"		"item_dust"
 //		"item"		"item_courier"
-//	"item"		"item_flying_courier"
+//		"item"		"item_flying_courier"
 //		"item"		"item_ward_observer"
 //		"item"		"item_ward_sentry"
-		"item"		"item_bottle"				
+		"item"		"item_bottle"
+		"item" 		"item_aghanims_shard"				
 	}
 
 	"attributes"
@@ -125,7 +126,8 @@
 	"weapons"
 	{
 		"item"		"item_armlet"
-		"item"		"item_basher"	
+		"item"		"item_basher"
+		"item"		"item_butterfly"
 	}
 		
 	// Level 4 - Orange / Orb / Artifacts				
@@ -138,7 +140,7 @@
  		"item"		"item_diffusal_blade"			
  		"item"		"item_heavens_halberd"
  		"item"		"item_sange_and_yasha"
-	
+		"item"		"item_moon_shard"
 	}
 
 	"sideshop1"

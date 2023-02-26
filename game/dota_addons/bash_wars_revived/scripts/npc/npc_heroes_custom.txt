@@ -1,4 +1,4 @@
-	
+
  "DOTAHeroes"
 {
   //=================================================================================================================
@@ -7,18 +7,31 @@
 	"npc_dota_hero_custom_spirit_breaker"	
 	{
     "override_hero"			"npc_dota_hero_spirit_breaker"
-  
 		// Abilities
 		//-------------------------------------------------------------------------------------------------------------
 		"Ability1"					"spirit_breaker_charge_of_darkness"		// Ability 1
-		"Ability2"					"mirana_leap"		// Ability 2
+		"Ability2"					"mirana_leap"							// Ability 2
 		"Ability3"					"spirit_breaker_greater_bash"			// Ability 3
-        "Ability4"					"bashwars_kick"			// Ability 4
-		"Ability5"					"attribute_bonus"						// Ability 5
+        "Ability4"					"spirit_breaker_nether_strike"			// Ability 4
+		"Ability5"					"pudge_meat_hook"						// Ability 5					 						// Ability 5
+		"Ability6"					"bashwars_kick" 						// Ability 6
+		"Ability7"					""
+		"Ability8"					""
+		"Ability9"					""
+		//Talents
+		//-------------------------------------------------------------------------------------------------------------
+		"Ability10"					"special_bonus_movement_speed_5" 		//Talent 1
+		"Ability11"					"special_bonus_attack_speed_5"			//Talent 2
+		"Ability12"					"special_bonus_attack_speed_50"		//Talent 3
+		"Ability13"					"special_bonus_cooldown_reduction_15"  		//Talent 4
+		"Ability14"					"special_bonus_movement_speed_15"			//Talent 5
+		"Ability15"					"special_bonus_unique_spirit_breaker_1"	//Talent 6
+		"Ability16"					"special_bonus_cooldown_reduction_15"			//Talent 1
+		"Ability17"					"special_bonus_movement_speed_30"		//Talent 1
 
     "VisionNighttimeRange"		"1400"
 		"VisionDaytimeRange"		"1400"
-
+		
 		// Armor
 		//-------------------------------------------------------------------------------------------------------------
 		"ArmorPhysical"				"8.0"								// Physical protection.
@@ -49,7 +62,7 @@
 
 		// Movement
 		//-------------------------------------------------------------------------------------------------------------
-		"MovementSpeed"				"380"									// Speed.
+		"MovementSpeed"				"300"									// Speed.
 		"MovementTurnRate"			"0.8"									// Turning rate.
 
 		"HealthBarOffset"			"160"

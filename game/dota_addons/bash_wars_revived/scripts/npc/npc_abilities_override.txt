@@ -16,6 +16,7 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
 		"FightRecapLevel"				"1"
+		"HasScepterUpgrade"				"0"
 		
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -24,7 +25,7 @@
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"5 5 4 3"
+		"AbilityCooldown"				"7 6 5 4"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
@@ -73,6 +74,7 @@
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"HasShardUpgrade"				"1"
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
@@ -120,7 +122,7 @@
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movespeed_pct"	"5 10 15 20"
+				"bonus_movespeed_pct"	"4 8 12 16"
 			}
 			"08"
 			{
@@ -143,10 +145,10 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
-		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"MaxLevel"						"1"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"FightRecapLevel"				"2"
-		"HasScepterUpgrade"			"1"
+		"IsGrantedByShard"				"1"
 		
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -156,11 +158,11 @@
 
 		// Time			
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"40 40 40"
+		"AbilityCooldown"				"40"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"50 50 50"
+		"AbilityManaCost"				"0.0"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -169,32 +171,17 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage"				"50 100 150"
+				"damage"				"100"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"fade_time"				"1.0 1.0 1.0"
+				"fade_time"				"1.0"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"tooltip_range"			"700"
-			}
-			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"cast_range_scepter"	"850"
-			}
-			"05"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bash_radius_scepter"	"200 200 200 200"
-			}
-			"06"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"cooldown_scepter"		"20.0 20.0 20.0"
 			}
 		}
 	}
@@ -208,6 +195,7 @@
 		"ID"					"5050"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"HasShardUpgrade"				"0"
 		
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -216,7 +204,8 @@
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"5 4 3 2"
+		"AbilityChargeRestoreTime"		"4.0 3.5 3.0 2.5"
+		"AbilityCharges"				"1 1 1 1"
 		"AbilityDuration"				"2.0 3.0 4.0 5.0"
 
 		// Cost
@@ -250,18 +239,46 @@
 			"05"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"leap_speedbonus"	"4 8 12 16"
+				"leap_speedbonus"	"4 6 8 10"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"leap_speedbonus_as"	"10 17 25 35"
-				"LinkedSpecialBonus"	"special_bonus_unique_mirana_1"
+				"leap_speedbonus_as"	"5 10 15 20"
 			}
 			"07"
 			{
 				"var_type"					"FIELD_FLOAT"
 				"air_time"					"0.6"
+			}
+		}
+	}
+	"pudge_meat_hook"
+	{
+		"ID"					"5075"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"		        "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"1"
+		"AbilityManaCost"				"0.0"
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"5"   
+
+		"IsGrantedByScepter"			"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"150"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hook_speed"			"2000.0"
 			}
 		}
 	}
