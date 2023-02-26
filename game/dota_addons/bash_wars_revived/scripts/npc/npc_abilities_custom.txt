@@ -70,7 +70,7 @@
     "AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
     "SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
     "AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
-    "MaxLevel"						"4"
+    "MaxLevel"						"3"
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"      "tusk_walrus_kick"
 
@@ -78,7 +78,7 @@
     //-------------------------------------------------------------------------------------------------------------
     "AbilityCastRange"        "128"
     "AbilityCastPoint"        "0.6"
-    "AbilityCooldown"       "12.0 10.0 8.0 6.0"
+    "AbilityCooldown"       "10.0 8.0 6.0"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_PHYSICAL"
     "AbilityDamage"         "50"
     
@@ -143,18 +143,18 @@
       "02"
       {
         "var_type"        "FIELD_INTEGER"
-        "damage"        "400 600 800 1000"
+        "damage"          "400 600 800 "
       }     
       "03"
       {
         "var_type"        "FIELD_INTEGER"
-        "distance"        "300 400 500 600"
+        "distance"        "400 500 600"
       }
       
       "04"
       {
         "var_type"        "FIELD_INTEGER"
-        "height"        "200 275 325 400"
+        "height"          "275 325 400"
       }
     }
   }

@@ -10,12 +10,12 @@
 			_class = "C_OP_RenderSprites"
 			m_nSequenceCombineMode = "SEQUENCE_COMBINE_MODE_ALPHA_FROM0_RGB_FROM_1"
 			m_flZoomAmount1 = 4.000000
-			m_hTexture = resource:"materials/particle/vistasmokev1/vistasmokev1_gray.vtex"
+			m_hTexture = resource:"materials/particle/vistasmokev1/vistasmokev1.vtex"
 			m_nOrientationType = 2
 			m_flAnimationRate = 0.135000
 			m_flMaxSize = 1.000000
 			m_flRefractAmount = 0.000000
-			m_flOverbrightFactor = 10.000000
+			m_flOverbrightFactor = 60.000000
 		},
 	]
 	m_Operators =
