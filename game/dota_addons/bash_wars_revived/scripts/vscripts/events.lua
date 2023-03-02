@@ -14,17 +14,15 @@ function CGameMode:OnGameRulesStateChange()
 	if nNewState == DOTA_GAMERULES_STATE_PRE_GAME then
 		local numberOfPlayers = PlayerResource:GetPlayerCount()
 		if numberOfPlayers > 7 then
-			--self.TEAM_KILLS_TO_WIN = 25
-			nCOUNTDOWNTIMER = 901
+			self.TEAM_KILLS_TO_WIN = 30
+			nCOUNTDOWNTIMER = 1201
 		elseif numberOfPlayers > 4 and numberOfPlayers <= 7 then
-			--self.TEAM_KILLS_TO_WIN = 20
-			nCOUNTDOWNTIMER = 721
+			self.TEAM_KILLS_TO_WIN = 25
+			nCOUNTDOWNTIMER = 901
 		else
-			--self.TEAM_KILLS_TO_WIN = 15
-			nCOUNTDOWNTIMER = 601
+			self.TEAM_KILLS_TO_WIN = 20
+			nCOUNTDOWNTIMER = 721
 		end
-
-		self.TEAM_KILLS_TO_WIN = 20
 
 		CustomNetTables:SetTableValue( "game_state", "victory_condition", { kills_to_win = self.TEAM_KILLS_TO_WIN } );
 

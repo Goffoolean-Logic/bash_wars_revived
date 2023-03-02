@@ -52,7 +52,6 @@
 		<CustomUIElement type="FlyoutScoreboard"	layoutfile="file://{resources}/layout/custom_game/multiteam_flyout_scoreboard.xml" />
 		<CustomUIElement type="HeroSelection" 		layoutfile="file://{resources}/layout/custom_game/multiteam_hero_select_overlay.xml" />
 		<CustomUIElement type="EndScreen" 			layoutfile="file://{resources}/layout/custom_game/multiteam_end_screen.xml" />
-		<CustomUIElement type="GameInfo" 			layoutfile="file://{resources}/layout/custom_game/customgame_game_info.xml" />
 	</Panel>
 </root>
 

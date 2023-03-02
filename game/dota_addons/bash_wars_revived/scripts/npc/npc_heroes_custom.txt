@@ -10,8 +10,8 @@
 		// Abilities
 		//-------------------------------------------------------------------------------------------------------------
 		"Ability1"					"spirit_breaker_charge_of_darkness"		// Ability 1
-		"Ability2"					"mirana_leap"							// Ability 2
-		"Ability3"					"spirit_breaker_greater_bash"			// Ability 3
+		"Ability2"					"spirit_breaker_greater_bash"							// Ability 2
+		"Ability3"					"mirana_leap"			// Ability 3
         "Ability4"					"spirit_breaker_nether_strike"			// Ability 4
 		"Ability6"					"bashwars_kick" 						// Ability 6
 		"Ability7"					""

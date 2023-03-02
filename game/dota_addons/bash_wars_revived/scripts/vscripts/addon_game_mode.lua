@@ -95,7 +95,7 @@ function CGameMode:InitGameMode()
 	self.tier3ItemBucket = {}
 	self.tier4ItemBucket = {}
 
-	self.TEAM_KILLS_TO_WIN = 20
+	self.TEAM_KILLS_TO_WIN = 30
 	self.CLOSE_TO_VICTORY_THRESHOLD = 5
 
 	---------------------------------------------------------------------------
@@ -114,6 +114,7 @@ function CGameMode:InitGameMode()
 	--GameRules:SetHideKillMessageHeaders( true )
 	GameRules:SetHideKillMessageHeaders( true )
 	GameRules:SetUseUniversalShopMode( false )
+	GameRules:SetTimeOfDay( 0.25 )
 
 	mode:SetCustomGameForceHero(FORCE_HERO_SELECTION)
     mode:SetCameraDistanceOverride( 1500.0 )

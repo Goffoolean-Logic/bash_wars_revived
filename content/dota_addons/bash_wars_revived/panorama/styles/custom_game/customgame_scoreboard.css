@@ -42,6 +42,7 @@
 	text-shadow: 2px 2px 2px #7b612b;
 	color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), color-stop( 0.25, #c88423 ), color-stop( 0.5, #fffb84 ), color-stop( 0.75, #c88423 ), to( #9a6717 ) );
     text-overflow: clip;
+    padding-top: 5px;
 }
 
 #Timer
@@ -54,6 +55,7 @@
     text-align: center;
 	width: 100%;
     text-overflow: clip;
+    padding-top: 10px;
 }
 
 #Timer.timer_visible
